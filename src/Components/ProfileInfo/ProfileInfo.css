@@ -1,0 +1,41 @@
+.profileImage {
+    border-radius: 50%;
+    width: 40%;
+    height: 40%;
+    margin-left: 10px;
+}
+
+.profileInformation {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.addressInformation {
+    padding-left: 10px;
+    line-height: 3px;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+}
+
+.profileDescription {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: cornsilk;
+    margin: 30px 10px 15px 10px;
+    border-radius: 20px;
+    line-height: 3px;
+}
+
+.profileDescription h3 {
+    color: darkolivegreen;
+}
+
+.profileDescription span {
+    font-size: 12px;
+}

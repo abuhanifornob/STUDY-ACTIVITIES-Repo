@@ -1,0 +1,13 @@
+.logo-img {
+    width: 70px;
+    height: 70px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-container h3 {
+    color: grey;
+}

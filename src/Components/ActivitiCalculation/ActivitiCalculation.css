@@ -1,0 +1,32 @@
+.studyDetails {
+    padding-left: 15px;
+    color: bisque;
+}
+
+.studyTime {
+    background-color: cornsilk;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 20px;
+    font-weight: bolder;
+    color: rgb(66, 63, 63);
+    text-align: center;
+}
+
+.break {
+    background-color: cornsilk;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 20px;
+    font-weight: bolder;
+    color: rgb(66, 63, 63);
+    text-align: center;
+}
+
+.activityBtn {
+    margin: 15px;
+    padding: 15px 40px;
+    width: 90%;
+    border-radius: 20px;
+    font-size: 22px;
+}

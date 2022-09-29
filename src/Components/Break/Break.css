@@ -1,0 +1,22 @@
+.breakTime h2 {
+    padding-left: 20px;
+    color: burlywood;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: bisque;
+    margin: 15px 10px 15px 10px;
+    border-radius: 20px;
+    line-height: 3px;
+    height: 100px;
+}
+
+.break-btn {
+    background-color: dimgrey;
+    border-radius: 50%;
+    padding: 15px;
+}
