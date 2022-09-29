@@ -2,9 +2,21 @@
 import React, { useState } from 'react';
 
 import './ActivitiCalculation.css'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const ActivitiCalculation = (props) => {
-  
+
+    const notify = () => toast.success('🦄 Wow Successfully', {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        });
+
 
     return (
         <div>
@@ -12,7 +24,8 @@ const ActivitiCalculation = (props) => {
                  <p className='studyTime'>Study Time :{props.time}  Minutes</p>
                  <p className='break'>Break Time :  Minutes</p>
 
-                <button className='activityBtn'>Activity Completed</button>  
+                <button className='activityBtn' onClick={notify}>Activity Completed</button> 
+                <ToastContainer /> 
          
         </div>
     );
