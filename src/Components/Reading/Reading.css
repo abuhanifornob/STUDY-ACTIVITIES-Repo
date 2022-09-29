@@ -14,6 +14,8 @@
 }
 
 .active-container {
+    position: sticky;
+    top: 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
@@ -33,10 +35,26 @@
     }
 }
 
-;
 @media screen and (max-width: 870px) {
     .active-container {
-        display: grid;
-        grid-template-columns: none;
+        display: flex;
+        flex-direction: column;
+    }
+    .reading-container {
+        margin-left: 50px;
+        padding-left: 70px;
+    }
+}
+
+@media screen and (max-width: 668px) {
+    .read-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .reading-container {
+        margin-left: 0;
+        padding-left: 130px;
     }
 }
