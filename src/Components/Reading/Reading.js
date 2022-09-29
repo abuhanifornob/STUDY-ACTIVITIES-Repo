@@ -51,7 +51,7 @@ const Reading = () => {
             </div>
             <div className="reading-activatice-container">
                 <ProfileInfo></ProfileInfo>
-                <Break breakTime={breakTime}></Break>
+                <Break></Break>
                 <ActivitiCalculation time={minute}></ActivitiCalculation>
                
                   

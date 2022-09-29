@@ -22,7 +22,7 @@ const ActivitiCalculation = (props) => {
         <div>
          <h2 className='studyDetails'>Study Details</h2>
                  <p className='studyTime'>Study Time :{props.time}  Minutes</p>
-                 <p className='break'>Break Time :  Minutes</p>
+                 <p className='break'>Break Time : 20 Minutes</p>
 
                 <button className='activityBtn' onClick={notify}>Activity Completed</button> 
                 <ToastContainer /> 
