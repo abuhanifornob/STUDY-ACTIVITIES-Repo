@@ -37,6 +37,7 @@ const Reading = () => {
         <div className='read-container'>
             <div className="reading-container">
                 <Header></Header>
+                <h1 style={{color:"cornflowerblue"}}>Selected Day Study Method</h1>
              <div className='active-container'>
              {
                 activity.map(active=><ReadActivati 

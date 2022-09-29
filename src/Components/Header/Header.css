@@ -1,6 +1,7 @@
 .logo-img {
     width: 70px;
     height: 70px;
+    border-radius: 50%;
 }
 
 .header-container {
@@ -10,4 +11,6 @@
 
 .header-container h3 {
     color: grey;
+    font-size: 25px;
+    font-weight: bolder;
 }

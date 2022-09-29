@@ -15,7 +15,8 @@
 
 .reading-container {
     background-color: rgb(235, 228, 201);
-    margin-left: 100px;
+    margin-left: 50px;
+    padding-left: 20px;
     margin-right: 20px;
 }
 
